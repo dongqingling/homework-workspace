@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="6" failures="0" disabled="0" errors="0" time="0.019" name="AllTests">
+  <testsuite name="TESTSuite" tests="6" failures="0" disabled="0" errors="0" time="0.019">
+    <testcase name="AddTwoPositiveN_GetPositiveSum" status="run" time="0.003" classname="TESTSuite" />
+    <testcase name="AddTwoNegative_GetNegativeSum" status="run" time="0.002" classname="TESTSuite" />
+    <testcase name="AddPositiveNegative_GetNegativeSum" status="run" time="0.003" classname="TESTSuite" />
+    <testcase name="AddPositiveNegative_GetPositiveSum" status="run" time="0.002" classname="TESTSuite" />
+    <testcase name="AddZeroPositive_GetPositiveSum" status="run" time="0.006" classname="TESTSuite" />
+    <testcase name="AddZeroNegative_GetNegativeSum" status="run" time="0.003" classname="TESTSuite" />
+  </testsuite>
+</testsuites>

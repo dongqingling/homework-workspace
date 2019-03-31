@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="1.017">
+  <testcase classname="rostest.runner.RosTest" name="testadd_two_ints_service_client" time="1.0166"></testcase>
+  <system-out><![CDATA[[ROSTEST]setup[/home/allen/catkin_ws/src/beginner_tutorials/test/add_two_ints_service_client.launch] run_id[22363cf6-53d1-11e9-9157-4437e6338b9a] starting
+?[1mstarted roslaunch server http://allen-Lenovo:51767/?[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: indigo
+ * /rosversion: 1.11.21
+
+NODES
+  /
+    add_two_ints_server (beginner_tutorials/add_two_ints_server)
+
+[ROSTEST]setup[/home/allen/catkin_ws/src/beginner_tutorials/test/add_two_ints_service_client.launch] run_id[22363cf6-53d1-11e9-9157-4437e6338b9a] done
+[ROSTEST]Running test [add_two_ints_service_client]
+?[1mROS_MASTER_URI=http://allen-Lenovo:42411/?[0m
+?[1msetting /run_id to 22363cf6-53d1-11e9-9157-4437e6338b9a?[0m
+?[1mprocess[rosout-1]: started with pid [2965]?[0m
+started core service [/rosout]
+?[1mprocess[add_two_ints_server-2]: started with pid [2969]?[0m
+[ROSTEST]running test add_two_ints_service_client
+?[1mprocess[add_two_ints_service_client-3]: started with pid [2980]?[0m
+?[1m[add_two_ints_service_client-3] process has finished cleanly
+log file: /home/allen/.ros/log/22363cf6-53d1-11e9-9157-4437e6338b9a/add_two_ints_service_client-3*.log?[0m
+[ROSTEST]test [add_two_ints_service_client] finished
+[ROSTEST]test [add_two_ints_service_client] results are in [/home/allen/catkin_ws/build/test_results/beginner_tutorials/rosunit-add_two_ints_service_client.xml]
+[ROSTEST]test [add_two_ints_service_client] results summary: 0 errors, 0 failures, 6 tests
+[ROSTEST][ROSTEST] test [add_two_ints_service_client] done
+[ROSTEST]tearDown[/home/allen/catkin_ws/src/beginner_tutorials/test/add_two_ints_service_client.launch]
+shutting down processing monitor...
+[add_two_ints_server-2] killing on exit
+[rosout-1] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/allen/catkin_ws/src/beginner_tutorials/test/add_two_ints_service_client.launch complete
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
